@@ -15,7 +15,8 @@ services:
     env_file:
       - ./.env
   web:
-    build: ovrsun/api_yamdb:v1.2305
+    # build: ovrsun/api_yamdb:v1.2305
+    image: ovrsun/api_yamdb:v1.2305
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 
