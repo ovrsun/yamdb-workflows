@@ -4,9 +4,8 @@ import os
 from django.conf import settings
 from django.core.management import BaseCommand
 
-from reviews.models import Category, Comment, Genre, Title, Review, Genre_Title
+from reviews.models import Category, Comment, Genre, Genre_Title, Review, Title
 from users.models import CustomUser
-
 
 DB_PATH = os.path.join(settings.BASE_DIR, 'db.sqlite3')
 

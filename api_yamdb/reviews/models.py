@@ -1,9 +1,8 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
-from users.models import CustomUser
-
 from api.validators import validate_year
+from users.models import CustomUser
 
 
 class Category(models.Model):
@@ -121,7 +120,7 @@ class Comment(models.Model):
         return self.text
 
 
-class Genre_Title(models.Model):
+class Genre_Title(models.Model):  # noqa
     title = models.ForeignKey(Title, null=False, on_delete=models.CASCADE)
     genre = models.ForeignKey(Genre, null=False, on_delete=models.CASCADE)
 

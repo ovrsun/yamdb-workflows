@@ -1,4 +1,5 @@
 from random import randint
+
 from django.conf import settings
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
@@ -11,7 +12,6 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 
 from api.permissions import AdminOnly
-
 from users.models import CustomUser
 
 from .serializers import (CustomUserSerializer, SignUpSerializer,
