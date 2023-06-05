@@ -49,9 +49,9 @@ jobs:
 
       - name: Set up Docker Buildx
         # Вызов сборщика контейнеров docker
+        run: cd api_yamdb/
         uses: docker/setup-buildx-action@v1
-        with:
-          file: api_yamdb/
+          
 
       - name: Login to Docker
         # Запуск скрипта авторизации на Docker Hub
