@@ -1,6 +1,6 @@
 # Проект YaMDb (групповой проект)
 
-![example workflow](https://github.com/ovrsun/docsyamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![example workflow](https://github.com/ovrsun/docs/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
 ## Описание
