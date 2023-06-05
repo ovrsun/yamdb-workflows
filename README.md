@@ -1,6 +1,6 @@
 # Проект YaMDb (групповой проект)
 
-![example workflow](https://github.com/ovrsun/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Django-app workflow](https://github.com/ovrsun/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/ovrsun/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 
 ## Описание
